@@ -1,0 +1,8 @@
+{
+    "title": "Popular Publications:",
+    "button": {
+        "link": "/blog",
+        "label": "View all"
+    },
+    "numOfItems": 2
+}

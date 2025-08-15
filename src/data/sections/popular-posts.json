@@ -1,0 +1,12 @@
+{
+    "title": "Popular Publications:",
+    "featured": [
+        "how-to-build-brand-identity-that-works",
+        "color-psychology-in-branding"
+    ],
+    "button": {
+        "link": "/blog",
+        "label": "View all"
+    },
+    "numOfItems": 2
+}

@@ -1,0 +1,42 @@
+{
+    "title": "Duco <br/>İstanbul",
+    "subtitle": "Welcome to",
+    "text": "Passionately Creating Digital Impact: <br/>Where Bold Ideas Meet Seamless Execution",
+    "button": {
+        "link": "/services",
+        "label": "Our Services"
+    },
+    "image": {
+        "url": "/images/Homepage/Strategic Vision.webp",
+        "alt": "Duco Istanbul Vision"
+    },
+    "bottom": {
+        "title": "Designing Digital Impact Today",
+        "button": {
+            "link": "/projects",
+            "label": "View portfolio"
+        },
+        "social": [
+            {
+                "icon": "fab fa-instagram",
+                "link": "https://instagram.com/ducoistanbul",
+                "title": "instagram"
+            },
+            {
+                "icon": "fab fa-tiktok",
+                "link": "https://tiktok.com/@ducoistanbul",
+                "title": "tiktok"
+            },
+            {
+                "icon": "fab fa-linkedin",
+                "link": "https://linkedin.com/company/duco-istanbul",
+                "title": "linkedin"
+            },
+            {
+                "icon": "fab fa-vimeo",
+                "link": "https://vimeo.com/ducoistanbul",
+                "title": "vimeo"
+            }
+        ]
+    }
+}

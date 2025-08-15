@@ -1,0 +1,37 @@
+/* Logo styling for different backgrounds */
+.mil-logo {
+    position: relative;
+    z-index: 10000;
+}
+
+/* Default: black logo on white backgrounds */
+.mil-logo img {
+    filter: invert(1) brightness(0) !important;
+    -webkit-filter: invert(1) brightness(0) !important;
+}
+
+/* Dark backgrounds: counter the backdrop invert effect */
+.mil-dark-bg .mil-logo img {
+    filter: invert(1) !important;
+    -webkit-filter: invert(1) !important;
+}
+
+/* Fullscreen menu: force yellow logo */
+.mil-menu-frame .mil-logo img {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+/* Footer specific: force yellow logo with higher specificity */
+footer.mil-dark-bg .mil-logo img,
+footer .mil-logo img {
+    filter: none !important;
+    -webkit-filter: none !important;
+}
+
+/* Desktop menu hover for Services dropdown */
+@media screen and (min-width: 1201px) {
+    .mil-main-menu .mil-has-children:hover ul {
+        max-height: 300px !important;
+    }
+}
