@@ -1,7 +1,7 @@
 ---
 #preview
 title: Klook Travel Technology Ltd.
-image: /images/Portfolio/Klook/Hero-min.webp
+image: /images/Portfolio/Klook/Klook-Cover.webp
 category: Social Media Management
 date: 2021-2024
 

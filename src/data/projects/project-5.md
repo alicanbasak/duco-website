@@ -1,7 +1,7 @@
 ---
 #preview
 title: Global Ports Holding
-image: /images/Portfolio/Global Ports Holding/Hero-min.webp
+image: /images/Portfolio/Global Ports Holding/GPH-Cover.webp
 category: Social Media Management
 date: 2023-Present
 

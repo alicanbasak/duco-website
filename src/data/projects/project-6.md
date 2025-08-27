@@ -1,7 +1,7 @@
 ---
 #preview
 title: Cruise Genie App
-image: /images/Portfolio/Cruise Genie/Hero-min.webp
+image: /images/Portfolio/Cruise Genie/CruiseGenie-Cover.webp
 category: Creative Design & Social Media
 date: 2024
 
