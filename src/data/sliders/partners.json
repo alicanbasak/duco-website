@@ -1,20 +1,48 @@
 {
     "items": [
         {
-            "image": "/img/partners/1.svg",
-            "alt": "logo"
+            "image": "/images/Homepage/Logolar/logo-acp.webp",
+            "alt": "ACP Logo"
         },
         {
-            "image": "/img/partners/2.svg",
-            "alt": "logo"
+            "image": "/images/Homepage/Logolar/logo-barbakuli.webp",
+            "alt": "Barbakuli Logo"
         },
         {
-            "image": "/img/partners/1.svg",
-            "alt": "logo"
+            "image": "/images/Homepage/Logolar/logo-cg.webp",
+            "alt": "CG Logo"
         },
         {
-            "image": "/img/partners/2.svg",
-            "alt": "logo"
+            "image": "/images/Homepage/Logolar/logo-consus.webp",
+            "alt": "Consus Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-gph.webp",
+            "alt": "GPH Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-gyh.webp",
+            "alt": "GYH Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-klook.webp",
+            "alt": "Klook Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-michalangelo.webp",
+            "alt": "Michalangelo Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-straton.webp",
+            "alt": "Straton Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-tres.webp",
+            "alt": "Tres Logo"
+        },
+        {
+            "image": "/images/Homepage/Logolar/logo-yak.webp",
+            "alt": "YAK Logo"
         }
     ]
 }

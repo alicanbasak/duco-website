@@ -97,7 +97,7 @@ const DefaultHeader = ({ extraClass }) => {
                               <div className="row">
                                   <div className="col-lg-8 mil-mb-60">
 
-                                      <h6 className="mil-muted mil-mb-30">Projects</h6>
+                                      <h6 className="mil-muted mil-mb-30">Portfolio</h6>
 
                                       <ul className="mil-menu-list">
                                           <li><Link href="/projects/project-1" className="mil-light-soft">Klook Travel Technology Ltd.</Link></li>

@@ -17,25 +17,38 @@ const Blog = ( { posts, currentPage, totalPosts, categories } ) => {
     <Layouts>
       <PageBanner pageTitle={"Exploring <span className=\"mil-thin\">the World</span> <br> Through Our <span className=\"mil-thin\">Blog</span>"} breadTitle={"Blog"} anchorLabel={"Publications"} anchorLink={"#blog"} paddingBottom={1} />
 
-      {/* blog */}
-      <section> 
-        <div className="container mil-p-120-120">
-          <div className="row align-items-center mil-mb-30">
-              <div className="col-lg-4 mil-mb-30">
-                  <h3 className="mil-up">Categories:</h3>
+      {/* categories */}
+      <section className="mil-soft-bg">
+        <div className="container mil-p-120-60">
+          <div className="row align-items-center">
+              <div className="col-lg-12">
+                  <h3 className="mil-center mil-up mil-mb-60">Explore Categories</h3>
               </div>
-              <div className="col-lg-8 mil-mb-30">
-                  <div className="mil-adaptive-right mil-up">
-
-                      <ul className="mil-category-list">
-                          {categories.map((item, key) => (
-                          <li key={`categories-item-${key}`}><Link href={`/blog/category/${item.id}`}>{item.title}</Link></li>
-                          ))}
-                          <li><Link href="/blog" className="mil-active">All categories</Link></li>
-                      </ul>
+          </div>
+          <div className="row">
+              <div className="col-lg-12">
+                  <div className="mil-categories-slider mil-up">
+                      <div className="mil-category-scroll-container">
+                          <ul className="mil-category-list mil-horizontal-scroll">
+                              <li><Link href="/blog" className="mil-active mil-category-item">All Categories</Link></li>
+                              {categories.map((item, key) => (
+                              <li key={`categories-item-${key}`}><Link href={`/blog/category/${item.id}`} className="mil-category-item">{item.title}</Link></li>
+                              ))}
+                          </ul>
+                      </div>
+                      <div className="mil-scroll-indicator">
+                          <div className="mil-scroll-hint">Swipe to explore</div>
+                      </div>
                   </div>
               </div>
           </div>
+        </div>
+      </section>
+      {/* categories end */}
+
+      {/* blog */}
+      <section> 
+        <div className="container mil-p-120-120">
           <div className="row">
               <PaginatedBlog
                 items={posts}

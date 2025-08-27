@@ -7,7 +7,7 @@
         "label": "Our Services"
     },
     "image": {
-        "url": "/images/Homepage/Strategic Vision.webp",
+        "url": "/images/Homepage/StrategicVision.webp",
         "alt": "Duco Istanbul Vision"
     },
     "bottom": {
@@ -29,7 +29,7 @@
             },
             {
                 "icon": "fab fa-linkedin",
-                "link": "https://linkedin.com/company/duco-istanbul",
+                "link": "https://linkedin.com/in/ducoistanbul",
                 "title": "linkedin"
             },
             {

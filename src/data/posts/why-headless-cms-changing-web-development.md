@@ -3,6 +3,7 @@
 title: "Why Headless CMS is Changing the Future of Web Development"
 short: "The way we build websites and digital products is evolving—and content management is at the center of that transformation. Enter the Headless CMS."
 category: "technology"
+categories: ["technology"]
 date: "2024-12-12"
 
 #full details
@@ -18,7 +19,7 @@ Unlike traditional CMS platforms like WordPress or Joomla, a headless CMS decoup
 
 At Duco İstanbul, we've fully embraced headless architecture for clients who demand speed, control, and multi-platform delivery.
 
-### So, What Exactly Is a Headless CMS?
+##### So, What Exactly Is a Headless CMS?
 
 In a headless setup, the CMS handles content only—text, images, videos, metadata—without dictating how or where that content is presented. It sends data via APIs to any front-end: a website, a mobile app, a smart TV, even AR/VR experiences.
 
@@ -28,21 +29,21 @@ In a headless setup, the CMS handles content only—text, images, videos, metada
 
 Popular headless platforms include Contentful, Sanity, Strapi, and DatoCMS.
 
-### Why It's Revolutionizing Development
+##### Why It's Revolutionizing Development
 
-### Performance at Scale
+##### Performance at Scale
 With a front-end built on modern frameworks like Next.js or Nuxt, content loads lightning-fast. It's SEO-friendly, mobile-optimized, and designed for Core Web Vitals from day one.
 
-### Omnichannel Delivery
+##### Omnichannel Delivery
 One piece of content can now be published on your website, mobile app, in-store kiosk, and smartwatch—all from one place. The flexibility is unmatched.
 
-### Developer Freedom
+##### Developer Freedom
 Front-end developers are no longer limited by the restrictions of old CMS themes or plugins. They can use any tech stack they want to create custom, blazing-fast experiences.
 
-### Future-Proof Architecture
+##### Future-Proof Architecture
 Because the content layer is separate, you can redesign your front-end without ever touching your content database. It makes migrations, redesigns, and platform shifts far easier.
 
-### Is Headless Right for You?
+##### Is Headless Right for You?
 
 While it's powerful, a headless CMS isn't for everyone. It works best for businesses that:
 

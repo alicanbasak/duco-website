@@ -1626,15 +1626,15 @@ revievs
 
 
             &.mil-slide-1 {
-                background-image: url(/img/faces/customers/1.jpg);
+                background-image: url(/images/Homepage/Testimonials/Alicin\ Santhmayer.webp);
             }
 
             &.mil-slide-2 {
-                background-image: url(/img/faces/customers/2.jpg);
+                background-image: url(/images/Homepage/Testimonials/Nazlı\ Şenkardeşler.webp);
             }
 
             &.mil-slide-3 {
-                background-image: url(/img/faces/customers/3.jpg);
+                background-image: url(/images/Homepage/Testimonials/Şizen\ Akçal.webp);
             }
 
             &.mil-slide-4 {
@@ -1867,6 +1867,24 @@ blog
 .mil-category-list {
     display: flex;
 
+    &.mil-horizontal-scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-bottom: 10px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        & li {
+            flex-shrink: 0;
+        }
+    }
+
     & li {
         list-style-type: none;
         margin-right: 10px;
@@ -1896,6 +1914,19 @@ blog
 
             &.mil-active {
                 background-color: $accent;
+                color: $light;
+            }
+
+            &.mil-category-item {
+                white-space: nowrap;
+                min-width: max-content;
+                margin-right: 15px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background-color: rgba($accent, 0.1);
+                    transform: translateY(-2px);
+                }
             }
 
         }
@@ -2631,4 +2662,90 @@ html.is-animating {
         opacity: 0;
         transition-delay: .3s;
     }
+}
+
+/* Enhanced Category Slider */
+.mil-categories-slider {
+    position: relative;
+    
+    .mil-category-scroll-container {
+        position: relative;
+        overflow: hidden;
+        
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 10px;
+            width: 40px;
+            pointer-events: none;
+            z-index: 3;
+            opacity: 1;
+            transition: opacity 0.3s ease;
+        }
+
+        &::before {
+            left: 0;
+            background: linear-gradient(to right, #f7f7f7, rgba(247,247,247,0));
+        }
+
+        &::after {
+            right: 0;
+            background: linear-gradient(to left, #f7f7f7, rgba(247,247,247,0));
+        }
+    }
+
+    .mil-horizontal-scroll {
+        scrollbar-width: thin;
+        scrollbar-color: rgba($accent, 0.3) transparent;
+        padding-bottom: 15px;
+        
+        &::-webkit-scrollbar {
+            height: 4px;
+            display: block;
+        }
+        
+        &::-webkit-scrollbar-track {
+            background: rgba($accent, 0.1);
+            border-radius: 2px;
+        }
+        
+        &::-webkit-scrollbar-thumb {
+            background: rgba($accent, 0.4);
+            border-radius: 2px;
+            
+            &:hover {
+                background: rgba($accent, 0.6);
+            }
+        }
+    }
+
+    .mil-scroll-indicator {
+        text-align: center;
+        margin-top: 15px;
+        
+        .mil-scroll-hint {
+            font-size: 12px;
+            color: rgba($dark, 0.5);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            animation: fadeInOut 2s infinite;
+            
+            &::before {
+                content: '←';
+                margin-right: 5px;
+            }
+            
+            &::after {
+                content: '→';
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
 }
