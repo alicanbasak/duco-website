@@ -1,47 +1,47 @@
 {
     "items": [
         {
-            "image": "/images/Homepage/Logolar/logo-acp.webp",
+            "image": "/images/Homepage/Logolar/logo-acp.png",
             "alt": "ACP Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-barbakuli.webp",
+            "image": "/images/Homepage/Logolar/logo-barbakuli.png",
             "alt": "Barbakuli Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-cg.webp",
+            "image": "/images/Homepage/Logolar/logo-cg.png",
             "alt": "CG Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-consus.webp",
+            "image": "/images/Homepage/Logolar/logo-consus.png",
             "alt": "Consus Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-gph.webp",
+            "image": "/images/Homepage/Logolar/logo-gph.png",
             "alt": "GPH Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-gyh.webp",
+            "image": "/images/Homepage/Logolar/logo-gyh.png",
             "alt": "GYH Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-klook.webp",
+            "image": "/images/Homepage/Logolar/logo-klook.png",
             "alt": "Klook Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-michalangelo.webp",
+            "image": "/images/Homepage/Logolar/logo-michelangelo.png",
             "alt": "Michalangelo Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-straton.webp",
+            "image": "/images/Homepage/Logolar/logo-straton.png",
             "alt": "Straton Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-tres.webp",
+            "image": "/images/Homepage/Logolar/logo-tres.png",
             "alt": "Tres Logo"
         },
         {
-            "image": "/images/Homepage/Logolar/logo-yak.webp",
+            "image": "/images/Homepage/Logolar/logo-yak.png",
             "alt": "YAK Logo"
         }
     ]
